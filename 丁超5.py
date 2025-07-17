@@ -30,7 +30,7 @@ import multiprocessing
 import pickle
 import warnings
 warnings.filterwarnings('ignore')
-shhs=123;
+print(123)
 # 确保在Windows上正确使用多进程
 if sys.platform.startswith('win'):
     multiprocessing.freeze_support()
